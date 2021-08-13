@@ -1,0 +1,48 @@
+.label_output{
+    font-size: 1.8rem;
+    display:flex;
+    flex-direction: row;
+    font-weight: bold;
+    color:var(--ans-col);
+}
+
+label{
+    font-size: 1.2rem;
+    padding:0.2rem;
+    margin: 0.5rem;
+    font-weight: bold;
+}
+
+.error_area{
+    display:none;
+    font-size: 1rem;
+    color:var(--error-col);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 550px)
+{
+    body{
+        display: block;
+    }
+        
+    .input_area{    
+        display: grid;
+        grid-template-columns: auto 1fr;
+        
+    }
+    h1{
+        margin-top:5rem;
+    }
+
+    .container{
+         display:block;      
+        background-color: var(--div-back-mob);
+    }
+
+    #back_btn{
+        position:absolute;
+        left: 0.3rem;
+        top: 0.5rem;
+    }
+}

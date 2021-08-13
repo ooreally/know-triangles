@@ -1,0 +1,87 @@
+.form_area{
+    padding: 1rem;
+    /* align-items:left; */
+}
+
+#quiz{
+   display:block;
+   flex-direction:column;
+   align-items: center;
+    justify-content: center; 
+   color:black;
+}
+
+.ques_area{
+   display: block;
+   font-size:1.4rem;
+   font-weight:bold;
+   background:var(--div-back);
+   margin:1rem;
+   padding:1rem;
+}
+
+.btn{
+    /* margin-left: auto; */
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.question{
+    display:block;
+}
+
+.label_score{
+    font-size: 1.5rem;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    color: var(--ans-col);
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1200px){
+    .container{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px)
+{
+    body{
+        display: block;
+        height: 100%;
+    }
+       
+    body::before{
+        background-size: cover;
+    }
+    .input_area{    
+        display: grid;
+        grid-template-columns: auto 1fr;
+        
+    }
+  
+    h1{
+        margin-top:5rem;
+    }
+
+    h3{
+        padding: 0.5rem;
+    }
+    .container{
+         display:block;      
+        background-color: var(--div-back-mob);
+    }
+   .ques_area{
+       display:block;
+        margin-left: 0rem;
+    }
+    #back_btn{
+        position:absolute;
+        left: 0.3rem;
+        top: 0.5rem;
+    }
+}

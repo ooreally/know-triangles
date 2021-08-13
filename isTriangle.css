@@ -1,0 +1,53 @@
+
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+
+.input_area{
+    /* display: flex; */
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+}
+
+label{
+    font-size: 1.2rem;
+    padding:0.2rem;
+    margin: 0.5rem;
+    font-weight: bold;
+}
+
+
+.output_area{
+    /* display: none; */
+    font-size: 1.8rem;
+    font-weight: bold;
+}   
+
+@media screen and (max-width: 550px)
+{
+    body{
+        display: block;
+    }
+        
+    .input_area{    
+        display: grid;
+        grid-template-columns: auto 1fr;
+        
+    }
+    h1{
+        margin-top:5rem;
+    }
+    .container{
+         display:block;      
+        background-color: var(--div-back-mob);
+    }
+    #back_btn{
+        position:absolute;
+        left: 0.3rem;
+        top: 0.5rem;
+    }
+}

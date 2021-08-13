@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check Hypotenuse</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="area.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <a href="index.html"><button id="back_btn"> &#60;--</button>
+    </a>
+  </div>
+  <div class="container">
+    <h1>
+      Find Hypotenuse
+    </h1>
+    <h2>Enter two perpendicular sides to find the hypotenuse of a triangle.</h2>
+    <div class="input_area">
+      <label for="side1">Side1:</label>
+      <input type="number" id="side1" />
+      <label for="side2">Side2:</label>
+      <input type="number" id="side2" />
+      
+    </div>
+    <button type="button" id="check_btn">Submit</button>
+    <label for="output" class="label_output" >Hypo=
+        <div class="output_area" id="output">
+            √(a<sup>2</sup>+b<sup>2</sup>)
+        </div>
+    </label>
+    <div class="error_area"></div>
+    <script src="hypo.js"></script>
+  </div>
+</body>
+
+</html>
