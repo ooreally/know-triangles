@@ -116,7 +116,7 @@ input{
     display:block;
     position:absolute;
     /* margin-top:auto; */
-    bottom:1rem;
+    bottom:2rem;
 }
 .list-non-bullet {
   list-style-type: none;
@@ -162,11 +162,12 @@ input{
     .container{
         display:block;
     }
+    .foo{
+      width: 90vw;
+    }
 }
 @media screen and (max-width: 400px){
-    .container{
-        display:block;
-    }
+    
     .all_links{
         grid-template-columns: auto auto;
     }
@@ -177,11 +178,7 @@ input{
         font-size: 1rem;
         justify-content: center;
     }
-    .foo{
-      display:flex;
-      align-items: center;
-      justify-content: center;
-    }
+    
     button{
       font-size: 1.2rem;
     }
