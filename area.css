@@ -33,8 +33,14 @@ label{
     }
     h1{
         margin-top:5rem;
+        font-size:2rem;
     }
-
+    h2{
+        font-size:1.2rem;
+    }
+    .label_output{
+        font-size:1.5rem;
+    }
     .container{
          display:block;      
         background-color: var(--div-back-mob);
